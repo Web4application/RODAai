@@ -5,7 +5,7 @@ let package = Package(
   name: "roda",
   platforms: [.macOS(.v13)],
   dependencies: [
-    .package(url: "https://github.com/apple/swift-argument-parser.git", from: "1.2.0"),
+    .package(url: "https://github.com/apple/swift-argument-parser.git", from: "1.7.0"),
     .package(name: "GoogleGenerativeAI", path: "../../")
   ],
   targets: [
